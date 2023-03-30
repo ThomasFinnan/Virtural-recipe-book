@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>561</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="TItle">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>20</y>
+      <width>411</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>20</pointsize>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>The Virtural Recipe Book</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>120</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chocolate Muffins</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label3">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>120</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cake</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>120</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pancakes</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>181</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="page_3">
+     <widget class="QPushButton" name="Button1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>141</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Chocolate Muffins</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>141</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pancakes</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>141</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pizza</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Button4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>141</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>Chips</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Rec_sec">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Recipes</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="closebutton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>320</y>
+        <width>93</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Close</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4"/>
+   </widget>
+   <widget class="QStackedWidget" name="Method1">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>150</y>
+      <width>561</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page_5">
+     <widget class="QPlainTextEdit" name="recipe1">
+      <property name="geometry">
+       <rect>
+        <x>-7</x>
+        <y>4</y>
+        <width>571</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="plainText">
+       <string>Ingredients:
+
+▢1 3/4 cups plain flour (all-purpose flour) (Note 1)
+▢1 1/4 tsp baking soda / bi-carb (Note 2)
+▢1/2 tsp salt
+▢1/2 cup Dutch process cocoa powder , sifted (Note 3)
+▢1 tbsp instant coffee granules / powder , optional (Note 4)
+▢3/4 cup milk , full fat, HOT
+▢1/2 cup canola oil (or veg or other neutral flavoured oil)
+▢1 cup brown sugar , packed (Note 5)
+▢1 tsp vanilla extract
+▢3/4 cup sour cream or thick plain yogurt (fridge-cold fine, Note 6)
+▢1 large egg (55-60g / 2oz) (fridge-cold fine, Note 6)
+▢1 1/2 cups dark chocolate chips (US: semi-sweet chips)
+
+Method:
+1. Preheat oven to 210°C / 410°F (190°C fan). Place shelf in the top 1/3 of the oven. Line a 12-hole 
+standard muffin tin with paper cases. 
+2. Sift Dry ingredients: Sift flour, baking soda and salt into a large bowl.
+3. Bloom cocoa: In a separate bowl, sift the cocoa then add coffee and HOT milk. Whisk until 
+lump-free.
+4. Add remaining Wet ingredients: To the cocoa mixture, add sugar, oil, egg, sour cream and vanilla. 
+Whisk until smooth.
+
+5. Mix flour in: Pour Wet mix into the bowl holding the flour. Whisk until smooth and glossy. Stop once it's smooth, don't mix excessively.
+
+6. Add chocolate chips: Stir in most of the chocolate chips – reserve approx 1/4 cup for topping.
+
+7. Fill muffin tin: Divide the batter between the 12 holes, up to 0.5cm / 0.2&quot; from rim of paper liner.
+
+8.Top with chocolate chips: Top muffins with reserved chocolate chips (just pile in middle, they spread when baked).
+
+9. Bake at high temp, 5 minutes: Bake for 5 minutes in preheated oven. The higher temp kick will start the rise.
+
+10. Lower oven, 20 minutes: Turn oven DOWN to 190°C / 375°F (170°C fan). Bake a further 20 minutes, checking at 15 minutes. When toothpick comes out clean they're ready. Don't confuse melted chocolate with raw batter!
+
+11. EAT! Rest in muffin tin for a few minutes, then transfer to cooling rack. Allow to cool for 15 minutes before devouring!</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="recipe2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>551</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="plainText">
+       <string>Ingredients:
+
+▢110g/4oz plain flour, sifted
+pinch of salt
+▢2 eggs
+▢200ml/7fl oz milk mixed with 75ml/3fl oz water
+▢50g/2oz butter
+
+Method:
+1. Sift the flour and salt into a large mixing bowl with a sieve held high above the bowl so the flour gets an airing.
+
+2. Now make a well in the centre of the flour and break the eggs into it. Then begin whisking the eggs – any sort of whisk or even a fork will do – incorporating any bits of flour from around the edge of the bowl as you do so.
+
+3. Next gradually add small quantities of the milk and water mixture, still whisking (don't worry about any lumps as they will eventually disappear as you whisk).
+
+4. When all the liquid has been added, use a rubber spatula to scrape any elusive bits of flour from around the edge into the centre, then whisk once more until the batter is smooth, with the consistency of thin cream.
+
+5. Now melt the 50g/2oz of butter in a pan.
+
+6. Spoon two tablespoons of the butter into the batter and whisk it in, then pour the rest into a bowl and use it to lubricate the pan, using a wodge of kitchen paper to smear it round before you make each pancake.
+
+7. Now get the pan really hot, then turn the heat down to medium and, to start with, do a test pancake to see if you're using the correct amount of batter. I find two tablespoons is about right for an 18cm/7in pan. It's also helpful if you spoon the batter into a ladle so it can be poured into the hot pan in one go.
+
+8. As soon as the batter hits the hot pan, tip it around from side to side to get the base evenly coated with batter. It should take only half a minute or so to cook; you can lift the edge with a palette knife to see if it's tinged gold as it should be.
+
+9. Flip the pancake over with a pan slice or palette knife – the other side will need a few seconds only – then simply slide it out of the pan onto a plate.
+
+10. Stack the pancakes as you make them between sheets of greaseproof paper on a plate fitted over simmering water, to keep them warm while you make the rest.
+
+11. To serve, sprinkle each pancake with freshly squeezed lemon juice and caster sugar, fold in half, then in half again to form triangles, or else simply roll them up. Serve sprinkled with a little more sugar and lemon juice and extra sections of lemon.</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="recipe3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>571</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="plainText">
+       <string>Ingredients:
+
+▢10g fresh yeast or 7g sachet dried
+▢½ tsp sugar
+▢375g Italian '00' flour, plus extra for dusting
+▢1 tbsp olive oil, plus extra for greasing
+▢3 x 125g balls mozzarella, torn
+▢fresh basil, to serve
+
+For the tomato sauce:
+
+▢3 tbsp olive oil
+▢1 onion, chopped
+▢1 garlic clove, crushed
+▢2 x 400g cans good-quality Italian chopped tomatoes
+
+Method:
+1. Mix together the yeast and sugar with 250ml warm water and leave to sit for 10 mins. Place half the flour in a table-top mixer with a dough hook, pour in the yeast mixture and beat at medium speed for 10 mins (or mix in a bowl, then knead with oiled hands in the bowl for 5-10 mins).
+
+2. Leave somewhere warm for 10 more mins, then add the remaining flour and oil. Beat or knead to a dough for a further 5 mins. Put in a well-oiled bowl, cover with a cloth and place somewhere warm to double in size – about 1½ hrs.
+
+3. For the sauce, heat the oil in a pan over a moderate heat. Add the onion and cook for 3 mins, stirring constantly. Add the garlic, 1 tsp sea salt and 1 tsp ground black pepper and cook for 2 mins more. Add the tomatoes and bring to the boil, then reduce the heat and simmer for a good 20 mins, stirring occasionally.
+
+4. Once your dough has doubled in size, slap it down on a lightly floured surface and knead for 4 mins until soft but not too elastic. Divide into 6 pieces, roll into balls and leave to rest for 10 mins. Heat oven to the highest temperature possible (270C fan in the Good Food test kitchen) and place a flat baking sheet in the oven.
+
+5. With a well-floured rolling pin, roll out each ball of dough as thinly as possible. Remove the baking sheet from the oven, oil or dust with flour, then carefully transfer the dough base onto it. Spread over some of the tomato sauce (I like to apply it in the quantity that you would spread Marmite on toast, or the base will be soft and fall to bits), then the cheese and any toppings you desire.
+
+6. Cook for between 5-10 mins depending on your oven temp, until the base is crisp and the cheese melted. Scatter with basil.</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="recipe4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>571</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+      <property name="plainText">
+       <string>Ingredients:
+
+▢6 large floury potatoes, such as Maris Piper, King Edward, Desirée (about 1.6kg)
+▢2 tbsp olive oil
+▢1 tsp celery salt
+▢sea salt, to serve
+
+Method:
+1. Heat the oven to 200C/180C fan/gas 6. Peel the potatoes and cut them into long chip shapes – the thickness is entirely up to you, though the width of a finger is ideal. Rinse under the cold tap and pat dry with a tea towel.
+
+2. Spread the chips on a large non-stick baking tray and toss with the olive oil and celery salt. Lie them flat in a single layer – use two trays rather than overcrowd one.
+
+3. Roast for 45-50 mins, turning now and then. When cooked they should be golden brown and crisp with a light fluffy centre. Scatter on sea salt to serve.</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_6"/>
+   </widget>
+   <widget class="QLabel" name="label4">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>120</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chips</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
